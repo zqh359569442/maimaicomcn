@@ -10,6 +10,7 @@ public class TestPage {
     }
     @Test*/
     public void test(){
+        System.out.println("aaa");
       /*  MmSelectProject mmSelectProject= applicationContext.getBean(MmSelectProject.class);
         List<TbItem> list = mmSelectProject.selectByExample();
         PageHelper.startPage(1,1);
