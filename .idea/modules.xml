@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/maimaicomcn.iml" filepath="$PROJECT_DIR$/maimaicomcn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maimaiwebapplication/maimaiwebapplication.iml" filepath="$PROJECT_DIR$/maimaiwebapplication/maimaiwebapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maimaiwebcommon/maimaiwebcommon.iml" filepath="$PROJECT_DIR$/maimaiwebcommon/maimaiwebcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maimaiwebcontroller/maimaiwebcontroller.iml" filepath="$PROJECT_DIR$/maimaiwebcontroller/maimaiwebcontroller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maimaiwebdao/maimaiwebdao.iml" filepath="$PROJECT_DIR$/maimaiwebdao/maimaiwebdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maimaiwebservice/maimaiwebservice.iml" filepath="$PROJECT_DIR$/maimaiwebservice/maimaiwebservice.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maimaiwebapplication" />
+        <module name="maimaiwebcommon" />
+        <module name="maimaiwebcontroller" />
+        <module name="maimaiwebdao" />
+        <module name="maimaiwebservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maimaicomcn" target="1.5" />
+      <module name="maimaiwebapplication" target="1.5" />
+      <module name="maimaiwebcommon" target="1.5" />
+      <module name="maimaiwebcontroller" target="1.5" />
+      <module name="maimaiwebdao" target="1.5" />
+      <module name="maimaiwebservice" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
