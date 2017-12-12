@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="maimaiweb.com.maimai.dao.mapper.MmAddProduct" >
+    <resultMap id="BaseResultMap" type="maimaiweb.com.maimai.dao.mapper.dto.TbItemCat">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="parent_Id" property="parentId" jdbcType="INTEGER"/>
+        <result column="name" property="name"  jdbcType="VARCHAR" />
+        <result column="status" property="status" jdbcType="INTEGER" />
+        <result column="sort_order" property="sortOrder" jdbcType="VARCHAR" />
+        <result column="is_parent" property="isParent" jdbcType="INTEGER" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+    <sql id="selectColumn">
+        id, parent_Id, name, status, sort_order, is_parent, create_time, update_time
+    </sql>
+
+    <select id="selectProductNote" resultMap="BaseResultMap" >
+        select
+          <include refid="selectColumn" />
+        from maimai_item_cat t where t.parent_id = #{1}
+    </select>
+
+</mapper>
